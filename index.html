@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Cardboard Web App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        margin: 0px;
+        overflow: hidden;
+      }
+      #webglviewer {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="webglviewer"></div>
+    <script src="./build/three.min.js"></script>
+    <script src="./js/StereoEffect.js"></script>
+    <script src="./js/DeviceOrientationControls.js"></script>
+    <script src="./js/OrbitControls.js"></script>
+    <script src="./js/DDSLoader.js"></script>
+    <script src="./js/STLLoader.js"></script>
+    <script src="./js/MTLLoader.js"></script>
+    <script src="./js/OBJLoader.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

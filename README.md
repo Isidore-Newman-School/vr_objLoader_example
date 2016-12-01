@@ -1,10 +1,8 @@
-VR Weather Particles
+VR Object Loader Example
 ========
 
-A relatively simple (yet still quite pretty) demo of glowing particles floating around your head. These particles move and change colour in response to the weather in various locations around the globe.
+This example was adapted from [VR Weather Particles](https://www.sitepoint.com/bringing-vr-to-web-google-cardboard-three-js/), an awesome, step-by-step walkthrough of getting started with VR and three.js.
 
-If you make something super wonderous and potentially more dizzying from this basic code, please do let me know! I'm on Twitter at @thatpatrickguy, or you can find me at http://www.patrickcatanzariti.com.
+Once you've downloaded this example, modify the **script.js** file. Experiment with lights(), changing the texture of the floor, [adding geometry](https://threejs.org/docs/index.html#Reference/Geometries/BoxGeometry), and more!
 
-Hooray for tech funtimes!
-
-PatCat
+Make sure to check out the [three.js documentation](https://threejs.org/docs/index.html#Manual/Introduction/Creating_a_scene) and [examples](https://threejs.org/examples/).
